@@ -29,7 +29,7 @@
     "clientFramework": "angularX",
     "cacheProvider": "no",
     "enableHibernateCache": false,
-    "herokuAppName": "lemeregister-3",
+    "herokuAppName": "boiling-escarpment-47424",
     "herokuDeployType": "git"
   }
 }
