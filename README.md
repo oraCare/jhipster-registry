@@ -1,3 +1,13 @@
+heroku login
+heroku buildpacks
+heroku create
+jhipster heroku
+ git rm package-lock.json
+  git commit -m "build failed "
+ git push heroku master
+ git push
+ and done all set 
+
 # JHipster Registry
 
 [![Build Status][travis-image]][travis-url]  [![Docker Pulls](https://img.shields.io/docker/pulls/jhipster/jhipster-registry.svg)](https://hub.docker.com/r/jhipster/jhipster-registry/)
