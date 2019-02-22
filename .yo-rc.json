@@ -28,6 +28,8 @@
     "clientPackageManager": "yarn",
     "clientFramework": "angularX",
     "cacheProvider": "no",
-    "enableHibernateCache": false
+    "enableHibernateCache": false,
+    "herokuAppName": "lemeregister-3",
+    "herokuDeployType": "git"
   }
 }
