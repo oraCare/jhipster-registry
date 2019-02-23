@@ -1,18 +1,18 @@
-heroku login
-heroku buildpacks
-heroku create
-jhipster heroku
- git rm package-lock.json
-  git commit -m "build failed "
- git push heroku master
- git push
- and done all set 
+* heroku login
+* heroku buildpacks
+* heroku create
+* jhipster heroku
+* git rm package-lock.json
+* git commit -m "build failed "
+* git push heroku master
+* git push
+* and done all set 
 
 
-To start web service on Heroku 
-heroku ps:scale web=1
-to Stop web service on Heroku
-heroku ps:scale web=0
+* To start web service on Heroku 
+* heroku ps:scale web=1
+* to Stop web service on Heroku
+* heroku ps:scale web=0
 # JHipster Registry
 
 [![Build Status][travis-image]][travis-url]  [![Docker Pulls](https://img.shields.io/docker/pulls/jhipster/jhipster-registry.svg)](https://hub.docker.com/r/jhipster/jhipster-registry/)
