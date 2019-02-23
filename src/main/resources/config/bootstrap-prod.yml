@@ -13,8 +13,9 @@ spring:
                 composite:
                     - type: git
                       #uri: https://github.com/jhipster/jhipster-registry-sample-config
-                      uri: https://nimeshmakwana:Meetthee37@bitbucket.org/minks/lemeconfig/src/master/
-                      username:
+                      uri: https://bitbucket.org/minks/lemeconfig/src/master/
+                      username: nimeshmakwana
+                      password: Meetthee37
                 prefix: /config
             fail-fast: true
             # name of the config server's property source (file.yml) that we want to use
