@@ -8,6 +8,11 @@ jhipster heroku
  git push
  and done all set 
 
+
+To start web service on Heroku 
+heroku ps:scale web=1
+to Stop web service on Heroku
+heroku ps:scale web=0
 # JHipster Registry
 
 [![Build Status][travis-image]][travis-url]  [![Docker Pulls](https://img.shields.io/docker/pulls/jhipster/jhipster-registry.svg)](https://hub.docker.com/r/jhipster/jhipster-registry/)
